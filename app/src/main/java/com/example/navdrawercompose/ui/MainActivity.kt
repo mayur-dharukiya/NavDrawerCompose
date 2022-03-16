@@ -1,4 +1,4 @@
-package com.example.navdrawercompose
+package com.example.navdrawercompose.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
+
 
                 }
             }
