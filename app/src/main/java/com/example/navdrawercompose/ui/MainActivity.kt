@@ -72,7 +72,8 @@ fun AppMainScreen(){
                       }
                       navController.navigate(route)
                       {
-                          popUpTo=navController.graph.startDestinationId  //replace it
+                          popUpTo=navController.graph.startDestinationId //replaced
+                          //popUpToId=navController.graph.startDestinationId
                           launchSingleTop=true
                       }
                   })

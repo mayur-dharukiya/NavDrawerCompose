@@ -38,7 +38,7 @@ fun Drawer(
               Text(
                   text = screen.title,
                   style=MaterialTheme.typography.h4,
-                  modifier=Modifier.clickable {  })
+                  modifier=Modifier.clickable {onDestinationClicked(screen.route) })
 
 
           }
